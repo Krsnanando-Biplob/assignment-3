@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
+    <title>Hockey's</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,12 +29,286 @@
 }
 </style>
 </head>
-<body class="manrope-font">
-    <header>
-
-    </header>
+<body class="manrope-font p-1 lg:p-20 md:container md:mx-auto">
+    <header class="">
+      <nav class="">
+          <div class="navbar bg-base-100 font-bold lg:font-extrabold ">
+              <div class="flex-1">
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                  </div>
+                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li>About</li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <a class="btn btn-ghost text-xl lg:text-5xl">Hockey<span class="text-error">'</span>s
+                </a>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                  <li><a><span class="text-error">Home</span></a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <div class="">
+                <a class="btn btn-error text-white">Get Ticket</a>
+              </div>
+            </div>
+      </nav>
+      <div class="carousel w-full my20 ">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="./Images/1.png" class="p-1 lg:h-[470px] lg:w-full " />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./Images/1.png" class="p-1 lg:h-[470px] lg:w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+     z  </header>
     <main>
-        
+      <section class="my-24">
+        <div>
+          <div>
+            <div class="hero">
+              <div class="hero-content text-center">
+                <div class="max-w-md">
+                  <h1 class="text-3xl font-bold">Professional Hockeys Club</h1>
+                  <p class="py-6">Competition of ice hockey in which participants are paid to play. Professional competiton began in North America in the.</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero ">
+              <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 hero-content text-center">
+                <div class="max-w-md">
+                  <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+                  <h1 class="text-xl font-bold">Prayer Facility</h1>
+                  <p class="py-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="max-w-md">
+                  <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                  <h1 class="text-xl font-bold">Experienced Coach</h1>
+                  <p class="py-6">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+                <div class="max-w-md">
+                  <div class="radial-progress text-orange-500" style="--value:90;" role="progressbar">90%</div>
+                  <h1 class="text-xl font-bold">Senior Player</h1>
+                  <p class="py-6">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+                <div class="max-w-md">
+                  <div class="radial-progress text-blue-500" style="--value:70;" role="progressbar">70%</div>
+                  <h1 class="text-xl font-bold">Training Ground</h1>
+                  <p class="py-6">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <section class="my-20">
+          <div>
+            <div class="hero bg-base-100">
+              <div class="hero-content text-center">
+                <div class="max-w-md">
+                  <h1 class="text-5xl font-bold">Program Sections</h1>
+                  <p class="py-6">Many countries orgranize club level competitions for senior and junior hockey players.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="grid gap-10 grid-cols-1 lg:grid-cols-2">
+              <div class="card bg-base-100 shadow-xl image-full">
+                <figure><img src="./Images/2.png" alt="Shoes" class="w-full" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title md:pt-40 lg:pt-40">Junior Program</h2>
+                  <p>The goals of junior hocke are to promote, develop, and administer the domestic UXZ Hockey program for junior players.</p>
+                  <div class="card-actions md:pb-10 lg:pb-10">
+                    <button class="btn bg-error text-white">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100 shadow-xl image-full">
+                <figure><img src="./Images/3.png" alt="Shoes" class="w-full" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title md:pt-40 lg:pt-40">Teenager Program</h2>
+                  <p>Teen programs can be easy to learn. Start a program with us first.</p>
+                  <div class="card-actions md:pb-10 lg:pb-10">
+                    <button class="btn bg-error text-white">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100 shadow-xl image-full my-5">
+              <figure><img src="./Images/4.png" alt="Shoes" class="w-full lg:h-[400px]" /></figure>
+              <div class="card-body">
+                <h2 class="card-title text-center md:pt-40 lg:pt-40">Junior Program</h2>
+                <p>The goals of junior hocke are to promote, develop, and administer the domestic UXZ Hockey program for junior players.</p>
+                <div class="card-actions md:pb-10 lg:pb-10">
+                  <button class="btn bg-error text-white">Register Now!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+            <div class="hero">
+              <div class="hero-content text-center">
+                <div class="max-w-md">
+                  <h1 class="text-5xl font-bold">Our New Products</h1>
+                  <p class="py-6">We can't stop talking about others. Listed below are some.
+                    Stay with us.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section class="my-10">
+          <div>
+            <div class="hero min-h-screen bg-base-200">
+              <div class="hero-content flex-col lg:flex-row">
+                <img src="./Images/11.png" class="rounded-lg shadow-2xl" />
+                <div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Our Equipment
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Hockey Training
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Private Lessons
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Ski Touring
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Booking
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Pricings
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="bg-base-200 my-10">
+            <div class="hero bg-base-200">
+              <div class="hero-content text-center">
+                <div class="max-w-md ">
+                  <h1 class="text-5xl font-bold">Get In Touch</h1>
+                  <p class="py-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="">
+          <div class="grid p-4 grid-cols-1 lg:grid-cols-2">
+            <div class="my-24">
+              <div class="lg:h-[150px]">
+                <i class="fa-solid fa-phone"></i>
+                <h4>Phone Number: 
+                <br> 01766144235
+                </h4>
+
+              </div>
+              <div class="lg:h-[150px]">
+                <i class="fa-solid fa-envelope"></i>
+                <h4>Email
+                  <br>krishnandobiplob@gmail.com
+                </h4>
+              </div>
+            </div>
+            <div class=" p-4">
+              <div class="grid gap-8 grid-cols-1 lg:grid-cols-2">
+                <div class="grid grid-rows-1">
+                  <h4 class="text-xl font-bold">Your Name</h4><br>
+                  <input type="text" placeholder="enter your name" class="input input-ghost" />
+                </div>
+                <div class="grid grid-rows-1">
+                  <h4 class="text-xl font-bold">Your Email</h4><br>
+                <input type="email" placeholder="enter your email" class="input input-ghost" />
+                </div>
+              </div>
+              <div class="grid gap-8 grid-cols-1 lg:grid-cols-2">
+                <div class="grid grid-rows-1">
+                  <h4 class="text-xl font-bold">Subject</h4><br>
+                  <input type="text" placeholder="enter your name" class="input input-ghost" />
+                </div>
+                <div class="grid grid-rows-1">
+                  <h4 class="text-xl font-bold">Your Number</h4><br>
+                <input type="number" placeholder="enter your number" class="input input-ghost" />
+                </div>
+                
+            </div>
+            <div class="grid grid-rows-1">
+              <h4 class="text-xl font-bold">Message</h4>
+            <textarea class="textarea textarea-bordered h-40 w-full" placeholder="message"></textarea>
+            <button class="btn btn-block text-white bg-red-400">Message</button>
+            </div>
+          </div>
+          
+          </div>
+          <div class="grid grid-cols-1 bg-base-200 h-[160px]">
+            <div class="justify-center text-center pt-6">
+              <h3 class="text-3xl font-bold">Social Media</h3>
+              
+
+            </div>
+          </div>
+
+        </section>
     </main>
     <footer>
 
